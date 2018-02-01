@@ -49,3 +49,33 @@ Operasi pada Python :
   Melihat Baris:
   >> Print i
   >> i = i + 1
+  
+Cara membaca data kordinat polyline
+
+import shapefile
+jkt1 = shapefile.Reader('jakarta1_indonesia_osm_line')
+jkt1.shapetype
+Output:3 -> Polyline
+
+Cara membaca data kordinat polygon
+
+import shapefile
+jkt2 = shapefile.Reader('jakarta2_indonesia_land_coast')
+jkt2.shapeType
+Output:5 -> Polygon
+
+ Cara membaca data kordinat point
+ import shapefile
+ jkt3 = shapefile.Reader('jakarta3_indonesia_osm_point')
+ jkt3.shapeType
+ Output:1 -> Polygon
+
+
+
+
+
+
+
+
+
+
