@@ -12,6 +12,15 @@
   Shapefile adalah file yang berisi domain map dataset dan dapat dibuka dengan aplikasi-aplikasi tertentu yang memiliki fitur GIS didalamnya.
   Python adalah bahasa pemrograman yang dapat digunakan untuk membuka shapefile tersebut.
   
+  Shapefile ESRI atau biasa disebut shapefile adalah format data geospasial yang umum untuk perangkat lunak sistem informasi geografis. 
+  Dikembangkan dan atur oleh ESRI sebagai spesifikasi (hampir) terbuka untuk interoperabilitas data antara ESRI dan produk perangkat lunak 
+  lainnya.
+
+Sebuah "shapefile" biasanya terdiri dari kumpulan file yang berekstensi ".shp", ".shx", ".dbf", dan ekstensi lainnya pada sebuah nama 
+yang sama (e.g., "jalan.*"). Saat penggunaan, shapefile sebenarnya yang rujuk adalah yang berekstensi ".shp", namun file ini tidak lengkap
+dan membutuhkan file lainnya.
+
+Shapefile keruangan digambarkan dengan geometri : titik, garis, dan luasan. Geometri tersebut, sebagai contoh, dapat mewakili pancuran, sungai, dan danau. Tiap bagian memiliki atribut yang menjelaskan atribut tersebut, seperti nama sungai atau temperatur
  \subsection{Retrieve data geospasial}
  Retrieve data geospasial adalah merupakan suatu cara untuk melakukan select/view, data record dari file dbf dan geometri dari file shp.
  Dalam pembahasan kali ini Retreive data geospasial yaitu dengan mengambil data vector ESRI/shapefile dibagi 2 terdapat DBF dan SHP. 
