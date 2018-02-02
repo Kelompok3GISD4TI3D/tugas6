@@ -19,7 +19,7 @@
  a.Point
  b.Poline
  c.Poligon
-  Penjelasan:
+  Penjelasan::
   Point dalam peta biasanya menunjukan sebuah tempat misalnya restoran
   Polygon dalam peta biasanya menunjukan sebuah pulau
   Perbedaan Polygon dan Polyline adalah titik awal dan akhir polygon selalu bertemu sedangkan tidak dengan polyline.
